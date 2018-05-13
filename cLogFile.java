@@ -1,5 +1,5 @@
 package srpt;
-
+// USAGE cLogFile x =new cLogFile(Path,File);x.ExtractLoad(RecordIdentifier,SearchString,OutFile);
 import java.io.BufferedReader;import java.io.BufferedWriter;import java.io.File;import java.io.FileReader;import java.io.FileWriter;import java.io.IOException;import java.util.Random;
 public class cLogFile {static String vsPath;File vfFileName;Integer viLineNumber;Boolean vbAppend,vbNew;
 	public cLogFile(String vsP,String vsFN) {cLogFile.vsPath=vsP;this.vfFileName=new File(vsP+vsFN);}
